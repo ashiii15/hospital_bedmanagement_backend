@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "outDir": "./dist",
+      "rootDir": "./",
+      "strict": true,
+      "esModuleInterop": true,
+      "typeRoots": ["./types", "./node_modules/@types"]
+    },
+    "include": ["src/**/*","types","@types"],
+    // "include": ["src", "Mongoconnect.ts", "server.ts","types","@types"],
+    "exclude": ["dist"]
+  }
+  
